@@ -11,4 +11,4 @@ fi
 rm -rf /home/linuxbrew/.linuxbrew
 ln -sfn /data/.linuxbrew /home/linuxbrew/.linuxbrew
 
-exec node src/server.js
+exec gosu openclaw node src/server.js
